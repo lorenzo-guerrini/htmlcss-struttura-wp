@@ -6,8 +6,7 @@
 
 body {
     width: 80%;
-    margin: auto;
-    margin-top: 1.5%;
+    margin: 1.5% auto;
 }
 
 header {
@@ -15,15 +14,17 @@ header {
     height: 100px;
 }
 
+figure, main {
+    margin-top: 2.5%;
+}
+
 figure {
     background-color: #DDD583;
     height: 300px;
-    margin-top: 2.5%;
 }
 
 main {
     background-color: #437BDF;
-    margin-top: 2.5%;
 }
 
 #title, .side-section, #main-section {
@@ -56,3 +57,8 @@ main::after {
     clear: both;
 }
 
+footer {
+    background-color: #7A27F7;
+    height: 50px;
+    margin-top: 0.5%;
+}
