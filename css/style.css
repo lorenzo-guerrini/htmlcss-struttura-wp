@@ -23,6 +23,36 @@ figure {
 
 main {
     background-color: #437BDF;
-    height: 500px;
     margin-top: 2.5%;
 }
+
+#title, .side-section, #main-section {
+    background-color: #B3CDE5;
+}
+
+#title {
+    height: 100px;
+}
+
+.side-section, #main-section {
+    height: 300px;
+    width: 10%;
+    float: left;
+}
+
+.side-section {
+    width: 20%;
+    margin: 1.5% 0;
+}
+
+#main-section {
+    width: 57%;
+    margin: 1.5% 1.5%;
+}
+
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
