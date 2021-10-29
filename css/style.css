@@ -4,21 +4,21 @@
     box-sizing: border-box;
 }
 
-body {
+.container {
     width: 80%;
     margin: 1.5% auto;
 }
 
-header {
+#logo, #slideshow {
+    margin-bottom: 2.5%;
+}
+
+#logo {
     background-color: #D181E1;
     height: 100px;
 }
 
-figure, main {
-    margin-top: 2.5%;
-}
-
-figure {
+#slideshow {
     background-color: #DDD583;
     height: 300px;
 }
@@ -51,7 +51,7 @@ main {
     margin: 1.5% 1.5%;
 }
 
-main::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
